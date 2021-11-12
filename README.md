@@ -25,3 +25,7 @@ OPTIONS:
     -d set destination path for the extracted files
     -l set path to dsc_extractor library
 ```
+
+## Notes for iOS
+
+To extract iOS's dyld shared cache files, you may need to specify a different dsc_extractor library with `-l` option. The library can usually be found at `/path/to/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/lib/dsc_extractor.bundle`.
